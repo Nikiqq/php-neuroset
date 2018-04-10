@@ -41,7 +41,7 @@
                     $this->s += $this->w[$i] * $this->x[$i];
                 }
                 $this->s += $this->w0;
-                echo $this->s;
+//                echo $this->s;
 //                echo "hello";
             }
             
@@ -54,7 +54,7 @@
                 $this->x = $input;  
                 $this->Status();
                 $this->Funk();
-                print '<br>';
+//                print '<br>';
 //                echo $this->y;
                 return $this->y;
             }
@@ -116,7 +116,22 @@
             exit("Невозможно открыть файл");
         }
         fclose($handle);
-
+    
+        $example = [-7.7, 0, -2.4, 0.9, 1, 0.2, 3.7, 0.6, 8.5, 0];
+        $x_alf_enter = [];
+        $y_first_exit = [];
+    
+        for ($j = 0; $j < KOL_ENTER; $j+= 2) {
+            array_push($x_alf_enter, (($example[$j]) + 10)/20);
+            array_push($x_alf_enter, $example[$j+1]);
+        }
+        
+        for ($j = 0; $j < KOL_NEURON; $j++) {
+            array_push($y_first_exit, $first_layer[$j]->WorkNeuron( $x_alf_enter )); 
+        }
+    
+        $itog = $last_layer->WorkNeuron( $y_first_exit );
+        print '<br> Итоговое нормализованное значение: '. $itog .',  денормализованное: '.($itog*20 - 10);
       ?>
 </body>
 </html>
