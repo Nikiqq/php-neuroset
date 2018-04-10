@@ -12,6 +12,7 @@
         define("DEFAULT_W", 0.2);
         define("DEFAULT_ALF", 1);
         define("KOL_ENTER", 10);
+        define("KOL_NEURON", 30);
     
         class Neuron  {
             private $w = []; 
@@ -71,10 +72,10 @@
             }
         }
         
-        $test = new Neuron();
-        $test->Status();
-        $test->SetW0(0.3);
-        $test->Status();
+//        $test = new Neuron();
+//        $test->Status();
+//        $test->SetW0(0.3);
+//        $test->Status();
 //        $arr = [1,1,1,1,1,1,1,1,1,1];
 //        for ($i = 0; $i < count($arr); $i++) {
 //            echo $arr[$i];
@@ -82,8 +83,40 @@
 //        
 //        $test->Status();
     
-        
-    
+        $first_layer = [];
+        for ($i = 0; $i < KOL_NEURON; $i++) {
+            $first_layer[] = new Neuron();
+        }		
+		$last_layer = new Neuron(KOL_NEURON);
+                
+        $handle = fopen("calculations/weights.txt", "r");
+        if( $handle ) {
+            print 'Файл успешно открыт';
+            for ($i = 0; $i < KOL_NEURON; $i++) {
+                $temp_w = [];
+                $temp = fgets($handle);
+                $first_layer[$i]->SetW0($temp);
+                for ($j = 0; $j < KOL_ENTER; $j++) {
+                    $temp = fgets($handle);
+                    array_push($temp_w, $temp);
+                }
+                $first_layer[$i]->SetW( $temp_w );
+            }
+            $temp_w = [];
+            $temp = fgets($handle);
+            $last_layer->SetW0($temp);
+            for ($i = 0; $i < KOL_NEURON; $i++) {
+                $temp = fgets($handle);
+                array_push($temp_w, $temp);
+            }
+            $last_layer->SetW( $temp_w );
+        }
+        else {
+            print 'Файл не открыт';
+            exit("Невозможно открыть файл");
+        }
+        fclose($handle);
+
       ?>
 </body>
 </html>
