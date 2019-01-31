@@ -1,0 +1,35 @@
+﻿Построение начато 15.12.2016 22:15:02.
+     1>Проект "C:\Users\nikita\Documents\Visual Studio 2010\Projects\russian_algoritm\russian_algoritm\russian_algoritm.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\russian_algoritm.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt gost.cpp
+         gost.cpp
+     1>c:\users\nikita\documents\visual studio 2010\projects\russian_algoritm\russian_algoritm\gost.cpp(86): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "p"
+     1>c:\users\nikita\documents\visual studio 2010\projects\russian_algoritm\russian_algoritm\gost.cpp(86): error C2297: <<: недопустимо, правый оператор имеет тип "const char [5]"
+     1>c:\users\nikita\documents\visual studio 2010\projects\russian_algoritm\russian_algoritm\gost.cpp(86): error C2563: несоответствие в списке формальных параметров
+     1>c:\users\nikita\documents\visual studio 2010\projects\russian_algoritm\russian_algoritm\gost.cpp(86): error C2568: <<: не удается разрешить перегрузку функции
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\ostream(1021): может быть "std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)"
+                 with
+                 [
+                     _Elem=unsigned short,
+                     _Traits=std::char_traits<unsigned short>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\ostream(1011): или       "std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)"
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _Traits=std::char_traits<wchar_t>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\ostream(1003): или       "std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\ostream(977): или       "std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)"
+     1>Построение проекта "C:\Users\nikita\Documents\Visual Studio 2010\Projects\russian_algoritm\russian_algoritm\russian_algoritm.vcxproj" завершено (целевые объекты build) с ошибкой.
+
+СБОЙ построения.
+
+Затраченное время: 00:00:00.55

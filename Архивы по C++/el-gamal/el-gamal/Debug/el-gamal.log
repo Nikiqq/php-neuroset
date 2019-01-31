@@ -1,0 +1,22 @@
+﻿Построение начато 27.03.2018 19:57:41.
+     1>Проект "C:\Users\nikita\Documents\Visual Studio 2010\Projects\el-gamal\el-gamal\el-gamal.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\el-gamal.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "el-gamal.cpp"
+         Пропуск... (изменения не обнаружены)
+         el-gamal.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\nikita\Documents\Visual Studio 2010\Projects\el-gamal\Debug\el-gamal.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\el-gamal.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\nikita\Documents\Visual Studio 2010\Projects\el-gamal\Debug\el-gamal.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\nikita\Documents\Visual Studio 2010\Projects\el-gamal\Debug\el-gamal.lib" /MACHINE:X86 "Debug\el-gamal.obj"
+         LINK : не найден или не выполнена сборка C:\Users\nikita\Documents\Visual Studio 2010\Projects\el-gamal\Debug\el-gamal.exe при последней инкрементной компоновке; выполняется полная компоновка
+         el-gamal.vcxproj -> C:\Users\nikita\Documents\Visual Studio 2010\Projects\el-gamal\Debug\el-gamal.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\nikita\Documents\Visual Studio 2010\Projects\el-gamal\Debug\el-gamal.exe;#1" /manifest "Debug\el-gamal.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Файл "Debug\el-gamal.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\el-gamal.lastbuildstate".
+     1>Построение проекта "C:\Users\nikita\Documents\Visual Studio 2010\Projects\el-gamal\el-gamal\el-gamal.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:02.06

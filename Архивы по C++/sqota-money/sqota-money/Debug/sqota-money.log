@@ -1,0 +1,22 @@
+﻿Построение начато 12.02.2017 15:55:13.
+     1>Проект "c:\Users\nikita\documents\visual studio 2010\Projects\sqota-money\sqota-money\sqota-money.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\sqota-money.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt lab.cpp
+         lab.cpp
+     1>c:\users\nikita\documents\visual studio 2010\projects\sqota-money\sqota-money\lab.cpp(16): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+     1>c:\users\nikita\documents\visual studio 2010\projects\sqota-money\sqota-money\lab.cpp(17): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\nikita\documents\visual studio 2010\Projects\sqota-money\Debug\sqota-money.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\sqota-money.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\nikita\documents\visual studio 2010\Projects\sqota-money\Debug\sqota-money.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\nikita\documents\visual studio 2010\Projects\sqota-money\Debug\sqota-money.lib" /MACHINE:X86 Debug\lab.obj
+         sqota-money.vcxproj -> c:\users\nikita\documents\visual studio 2010\Projects\sqota-money\Debug\sqota-money.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"c:\users\nikita\documents\visual studio 2010\Projects\sqota-money\Debug\sqota-money.exe;#1" /manifest "Debug\sqota-money.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Файл "Debug\sqota-money.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\sqota-money.lastbuildstate".
+     1>Построение проекта "c:\Users\nikita\documents\visual studio 2010\Projects\sqota-money\sqota-money\sqota-money.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:01.39

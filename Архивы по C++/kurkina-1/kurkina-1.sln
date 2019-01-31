@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kurkina-1", "kurkina-1\kurkina-1.vcxproj", "{B045CFA4-1CFC-4333-8C41-AD522A5A3918}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B045CFA4-1CFC-4333-8C41-AD522A5A3918}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B045CFA4-1CFC-4333-8C41-AD522A5A3918}.Debug|Win32.Build.0 = Debug|Win32
+		{B045CFA4-1CFC-4333-8C41-AD522A5A3918}.Release|Win32.ActiveCfg = Release|Win32
+		{B045CFA4-1CFC-4333-8C41-AD522A5A3918}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

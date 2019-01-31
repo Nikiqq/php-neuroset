@@ -1,0 +1,24 @@
+﻿Построение начато 27.03.2018 21:20:04.
+     1>Проект "c:\Users\nikita\documents\visual studio 2010\Projects\shaikin\shaikin\shaikin.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\shaikin.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm- /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt shifr.cpp
+         shifr.cpp
+     1>c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.core.dll : warning C4945: ExtensionAttribute: не удается импортировать символ из "c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.core.dll": "System::Runtime::CompilerServices::ExtensionAttribute" уже был импортирован из другой сборки "mscorlib"
+                 c:\windows\microsoft.net\framework\v4.0.30319\mscorlib.dll: см. объявление "System::Runtime::CompilerServices::ExtensionAttribute"
+                 используется тип, обнаруженный первым; измените порядок импорта сборок, чтобы использовать текущий тип
+                 Сообщение диагностики возникло при импорте типа "System.Runtime.CompilerServices.ExtensionAttribute" из сборки "System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\nikita\documents\visual studio 2010\Projects\shaikin\Debug\shaikin.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\shaikin.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\nikita\documents\visual studio 2010\Projects\shaikin\Debug\shaikin.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\nikita\documents\visual studio 2010\Projects\shaikin\Debug\shaikin.lib" /MACHINE:X86 Debug\shifr.obj
+         shaikin.vcxproj -> c:\users\nikita\documents\visual studio 2010\Projects\shaikin\Debug\shaikin.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"c:\users\nikita\documents\visual studio 2010\Projects\shaikin\Debug\shaikin.exe;#1" /manifest Debug\shaikin.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Debug\shaikin.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\shaikin.lastbuildstate".
+     1>Построение проекта "c:\Users\nikita\documents\visual studio 2010\Projects\shaikin\shaikin\shaikin.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:01.82

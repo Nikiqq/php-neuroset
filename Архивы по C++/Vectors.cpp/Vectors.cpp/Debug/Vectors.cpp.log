@@ -1,0 +1,11 @@
+﻿Построение начато 05.03.2018 14:40:57.
+     1>Проект "C:\Users\nikita\documents\visual studio 2010\Projects\Vectors.cpp\Vectors.cpp\Vectors.cpp.vcxproj" в узле 2 (целевые объекты ClCompile).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt vectors.cpp
+         Пропуск... (изменения не обнаружены)
+         vectors.cpp
+     1>Построение проекта "C:\Users\nikita\documents\visual studio 2010\Projects\Vectors.cpp\Vectors.cpp\Vectors.cpp.vcxproj" завершено (целевые объекты ClCompile).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:00.14

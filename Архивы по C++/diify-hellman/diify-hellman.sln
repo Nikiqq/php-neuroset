@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "diify-hellman", "diify-hellman\diify-hellman.vcxproj", "{F09001F1-A16E-4EFD-A366-7B347C403843}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F09001F1-A16E-4EFD-A366-7B347C403843}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F09001F1-A16E-4EFD-A366-7B347C403843}.Debug|Win32.Build.0 = Debug|Win32
+		{F09001F1-A16E-4EFD-A366-7B347C403843}.Release|Win32.ActiveCfg = Release|Win32
+		{F09001F1-A16E-4EFD-A366-7B347C403843}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
