@@ -1,0 +1,301 @@
+.container {
+	width: 100px;
+	height: 200px;
+	border: 1px solid #000;
+	position: relative;
+	background-color: #000;
+	border-radius: 10px;
+    position: absolute;
+    
+    transform: scale(.15);
+    z-index: 5;
+}
+
+.c-1 {
+    left: 416px;
+    top: 160px;
+}
+
+.c-2 {
+    left: 564px;
+    bottom: 120px;
+}
+
+.c-3 {
+    
+    position: absolute;
+    top: 390px;
+    left: 350px;
+    
+}
+
+.red, .green, .red-inv, .green-inv {
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	background: 
+	linear-gradient(295deg, transparent 75%, rgba(255,255,255,.1) 75%) 0 0,
+	linear-gradient(65deg, transparent 75%, rgba(255,255,255,.1) 75%) 0 0,
+	linear-gradient(295deg, transparent 75%, rgba(255,255,255,.1) 75%) 7px -15px,
+	linear-gradient(65deg, transparent 75%, rgba(255,255,255,.1) 75%) 7px -15px, #36c;
+	background-size: 15px 30px
+}
+
+	
+
+.red {
+	bottom: 5%;
+/*	-webkit-animation: OPERATE-RED 7s infinite;*/
+	animation: OPERATE-RED 1s infinite;
+}
+
+.green {
+	top: 5%;
+/*	-webkit-animation: OPERATE-GREEN 7s infinite;*/
+	animation: OPERATE-GREEN 1s infinite;
+}
+
+.red-inv {
+    top: 5%;
+/*	-webkit-animation: OPERATE-RED-INV 7s infinite;*/
+	animation: OPERATE-RED-INV 7s infinite;
+}
+
+.green-inv {
+    bottom: 5%;
+/*	-webkit-animation: OPERATE-GREEN-INV 7s infinite;*/
+	animation: OPERATE-GREEN-INV 7s infinite;
+}
+
+
+@keyframes OPERATE-RED {
+	0% {
+		background-color: red;
+		border-color: red;
+		box-shadow: 5px 5px 30px red;
+	}
+
+	50% {
+		background-color: red;
+		border-color: red;
+		box-shadow: 5px 5px 30px red;	
+	}
+
+	51% {
+		background-color: transparent;
+		border-color: #000;
+		box-shadow: 0px 0px 0px transparent;
+	}
+
+	100% {
+		background-color: transparent;
+		border-color: #000;
+		box-shadow: 0px 0px 0px transparent;
+	}
+}
+
+
+
+@keyframes OPERATE-GREEN {
+	0% {
+		background-color: transparent;
+		border-color: #000;
+		box-shadow: 0px 0px 0px transparent;
+	}
+
+	50% {
+		background-color: transparent;
+		border-color: #000;
+		box-shadow: 0px 0px 0px transparent;
+	}
+
+	51% {
+		background-color: green;
+		border-color: green;
+		box-shadow: 5px 5px 30px green;
+	}
+
+	100% {
+		background-color: green;
+		border-color: green;
+		box-shadow: 5px 5px 30px green;
+	}	
+}
+
+
+
+@keyframes OPERATE-RED-INV {
+	0% {
+		background-color: green;
+		border-color: green;
+		box-shadow: 5px 5px 30px green;
+	}
+
+	50% {
+		background-color: green;
+		border-color: green;
+		box-shadow: 5px 5px 30px green;	
+	}
+
+	51% {
+		background-color: transparent;
+		border-color: #000;
+		box-shadow: 0px 0px 0px transparent;
+	}
+
+	100% {
+		background-color: transparent;
+		border-color: #000;
+		box-shadow: 0px 0px 0px transparent;
+	}
+}
+
+
+
+@keyframes OPERATE-GREEN-INV {
+	0% {
+		background-color: transparent;
+		border-color: #000;
+		box-shadow: 0px 0px 0px transparent;
+	}
+
+	50% {
+		background-color: transparent;
+		border-color: #000;
+		box-shadow: 0px 0px 0px transparent;
+	}
+
+	51% {
+		background-color: red;
+		border-color: red;
+		box-shadow: 5px 5px 30px red;
+	}
+
+	100% {
+		background-color: red;
+		border-color: red;
+		box-shadow: 5px 5px 30px red;
+	}	
+}
+
+
+
+/*--------------------------------------*/
+
+
+@keyframes OPERATE-RED-2 {
+	0% {
+		background-color: red;
+		border-color: red;
+		box-shadow: 5px 5px 30px red;
+	}
+
+	66% {
+		background-color: red;
+		border-color: red;
+		box-shadow: 5px 5px 30px red;	
+	}
+
+	67% {
+		background-color: transparent;
+		border-color: #000;
+		box-shadow: 0px 0px 0px transparent;
+	}
+
+	100% {
+		background-color: transparent;
+		border-color: #000;
+		box-shadow: 0px 0px 0px transparent;
+	}
+}
+
+
+
+@keyframes OPERATE-GREEN-2 {
+	0% {
+		background-color: transparent;
+		border-color: #000;
+		box-shadow: 0px 0px 0px transparent;
+	}
+
+	66% {
+		background-color: transparent;
+		border-color: #000;
+		box-shadow: 0px 0px 0px transparent;
+	}
+
+	67% {
+		background-color: green;
+		border-color: green;
+		box-shadow: 5px 5px 30px green;
+	}
+
+	100% {
+		background-color: green;
+		border-color: green;
+		box-shadow: 5px 5px 30px green;
+	}	
+}
+
+
+
+@keyframes OPERATE-RED-INV-2 {
+	0% {
+		background-color: green;
+		border-color: green;
+		box-shadow: 5px 5px 30px green;
+	}
+
+	66% {
+		background-color: green;
+		border-color: green;
+		box-shadow: 5px 5px 30px green;	
+	}
+
+	67% {
+		background-color: transparent;
+		border-color: #000;
+		box-shadow: 0px 0px 0px transparent;
+	}
+
+	100% {
+		background-color: transparent;
+		border-color: #000;
+		box-shadow: 0px 0px 0px transparent;
+	}
+}
+
+
+
+@keyframes OPERATE-GREEN-INV-2 {
+	0% {
+		background-color: transparent;
+		border-color: #000;
+		box-shadow: 0px 0px 0px transparent;
+	}
+
+	66% {
+		background-color: transparent;
+		border-color: #000;
+		box-shadow: 0px 0px 0px transparent;
+	}
+
+	67% {
+		background-color: red;
+		border-color: red;
+		box-shadow: 5px 5px 30px red;
+	}
+
+	100% {
+		background-color: red;
+		border-color: red;
+		box-shadow: 5px 5px 30px red;
+	}	
+}
+
+
+

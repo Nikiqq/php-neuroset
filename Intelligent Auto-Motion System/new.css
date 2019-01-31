@@ -1,0 +1,14 @@
+:root {
+  --color: red;
+}
+header {
+  --color: orange;
+}
+h2 {
+  color: var(--color);
+}
+
+/*
+body {
+    background-color: aquamarine;
+}*/

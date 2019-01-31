@@ -1,0 +1,278 @@
+.cars img,
+#cars-1{
+    position: absolute;
+    top: 526px;
+    left: 568px;
+    z-index: 999;
+    width: 20px;
+    transform: rotate(180deg);
+    display: none;
+}
+
+#cars-1 {
+    animation-name: animate_1;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    display: inline;
+}
+
+#cars-5 {
+    top: top:726px;
+    left: 542px;
+    animation-name: animate_2;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    display: inline;
+}
+
+#cars-2 {
+    top: 720px;
+    left: 974px;
+    transform: rotate(138deg);
+    animation-name: animate_3;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    display: inline;
+}
+
+#cars-3 {
+    top: 200px;
+    left: 516px;
+    transform: rotate(0deg);
+    animation-name: animate_4;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    display: inline;
+}
+
+#cars-7 {
+    top: 200px;
+    left: 490px;
+    transform: rotate(0deg);
+    animation-name: animate_5;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    display: inline;
+}
+
+#cars-11 {
+    top: -200px;
+    left: 490px;
+    transform: rotate(0deg);
+    animation-name: animate_11;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#cars-6 {
+    top: 720px;
+    left: 938px;
+    transform: rotate(138deg);
+    animation-name: animate_6;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    display: inline;
+
+}
+
+#cars-9 {
+    top: 200px;
+    left: 516px;
+    transform: rotate(0deg);
+    animation-name: animate_7;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+#cars-4 {
+    top: 412px;
+    left: 216px;
+    transform: rotate(270deg);
+    animation-name: animate_8;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    display: inline;
+
+}
+
+#cars-10 {
+    top: 412px;
+    left: 296px;
+    transform: rotate(270deg);
+    animation-name: animate_9;
+    animation-duration: 18s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+#cars-8 {
+    top: 440px;
+    left: 216px;
+    transform: rotate(270deg);
+    animation-name: animate_10;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    display: inline;
+
+}
+
+#cars-12 {
+    top: 440px;
+    left: 106px;
+    transform: rotate(270deg);
+    animation-name: animate_12;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes animate_1 {
+    0%   {left:568px; top:726px;}
+    50%  {left:568px; top:-70px;}
+    70%  {left:1568px; top:-70px;}
+    75%  {left:1568px; top:1000px;}
+    90%  {left:568px; top:1000px;}
+    100% {left:568px; top:726px;}
+}
+
+@keyframes animate_2 {
+    0%   {left: 542px; top:726px;}
+    20%   {left: 542px; top:526px;}
+    40%   {left: 542px; top:426px; transform: rotate(180deg);}
+    50%   {left: 502px; top:388px; transform: rotate(100deg);}
+    55%   {left: 482px; top:388px; transform: rotate(90deg);}
+    70%   {left: 362px; top:388px; transform: rotate(90deg);}
+    100%   {left: 0px; top:388px; transform: rotate(90deg);}
+}
+
+@keyframes animate_3 {
+    0%   {left: 974px; top: 720px;}
+    40%  {left:654px; top:400px; transform: rotate(138deg);}
+    48%  {left:608px; top:370px; transform: rotate(130deg);}
+    56%  {left:578px; top:320px; transform: rotate(160deg);}
+    64%  {left:568px; top:250px; transform: rotate(170deg);}
+    72%  {left:568px; top:200px; transform: rotate(180deg);}
+    99%  {left:568px; top:-70px; transform: rotate(180deg);}
+    100% {left:1568px; top:-70px;}
+}
+
+@keyframes animate_4 {
+    0%   {left:516px; top:-70px;}
+    40%  {left:516px; top:1000px;}
+    70%  {left:1568px; top:1000px;}
+    75%  {left:1568px; top:-70px;}
+    90%  {left:568px; top:-70px;}
+    100% {left:516px; top:-70px;}
+}
+
+@keyframes animate_5 {
+    0%   {left:490px; top:-70px;}
+    20%  {left: 490px; top: 280px;}
+    25%  {left: 490px; top: 320px; transform: rotate(0deg);}
+    30%  {left: 460px; top: 362px; transform: rotate(90deg);}
+    40%  {left: 320px; top: 362px; transform: rotate(90deg);}
+    60% {left: 0px; top:362px; transform: rotate(90deg);}
+    80% {left: -100px; top:362px; transform: rotate(90deg);}
+    100% {left: -100px; top:362px; transform: rotate(90deg);}
+}
+
+@keyframes animate_6 {
+    0%   {left: 938px; top: 720px;}
+    40%  {left:618px; top:400px; transform: rotate(138deg);}
+    42%  {left:608px; top:398px; transform: rotate(120deg);}
+    46%  {left:598px; top:394px; transform: rotate(100deg);}
+    60%  {left:500px; top:390px; transform: rotate(90deg);}
+    100% {left:0px; top:388px; transform: rotate(90deg);}
+}
+
+@keyframes animate_7 {
+    0%   {left:516px; top:-170px;}
+    30%  {left:516px; top:320px; transform: rotate(0deg);}
+    32%  {left:520px; top:334px; transform: rotate(-40deg);}
+    44%  {left:600px; top:414px; transform: rotate(-40deg);}
+
+    70% {left: 898px; top: 720px; transform: rotate(-48deg);}
+    100% {left: 1098px; top: 920px; transform: rotate(-48deg);}
+}
+
+@keyframes animate_8 {
+    0%   {top: 412px;   left: -10px;}
+    20%   {top: 412px;   left: 536px; transform: rotate(270deg)}
+    21%   {top: 416px;   left: 560px; transform: rotate(290deg)}
+    23%   {top: 420px;   left: 570px; transform: rotate(318deg)}
+    50% {left: 868px; top: 720px; transform: rotate(318deg);}
+    100% {left: 1268px; top: 1120px; transform: rotate(318deg);}
+}
+
+@keyframes animate_9 {
+    0%  {left: -100px; top: 412px; }
+    24% {left: 504px; top: 412px; transform: rotate(270deg);}
+    26% {left: 514px; top: 392px; transform: rotate(230deg);}
+    28% {left: 524px; top: 362px; transform: rotate(200deg);}
+    30% {left: 534px; top: 322px; transform: rotate(190deg);}
+    31% {left: 538px; top: 306px; transform: rotate(180deg);}
+    32% {left: 540px; top: 297px; transform: rotate(180deg);}
+    42% {left: 544px; top: 0px; transform: rotate(180deg);}
+    100%{left: 544px; top: -1040px; transform: rotate(180deg);}
+}
+
+@keyframes animate_10 {
+    0%  {left: 0px; top: 440px;   }
+    20% {left: 440px; top: 440px; transform: rotate(270deg);}
+    22% {left: 466px; top: 450px; transform: rotate(290deg);}
+    24% {left: 480px; top: 458px; transform: rotate(330deg);}
+    26% {left: 490px; top: 498px; transform: rotate(360deg);}
+    40% {left: 490px; top: 808px; transform: rotate(360deg);}
+    100%{left: 490px; top: 1040px; transform: rotate(360deg);}
+}
+
+@keyframes animate_11 {
+    0%   {left:490px; top:-70px;}
+    20%  {left: 490px; top: 280px;}
+    25%  {left: 490px; top: 320px; transform: rotate(0deg);}
+    30%  {left: 460px; top: 362px; transform: rotate(90deg);}
+    40%  {left: 320px; top: 362px; transform: rotate(90deg);}
+    60% {left: 0px; top:362px; transform: rotate(90deg);}
+    80% {left: -100px; top:362px; transform: rotate(90deg);}
+    100% {left: -100px; top:362px; transform: rotate(90deg);}
+}
+
+@keyframes animate_12 {
+    0%  {left: -80px; top: 440px;   }
+    20% {left: 440px; top: 440px; transform: rotate(270deg);}
+    22% {left: 466px; top: 450px; transform: rotate(290deg);}
+    24% {left: 480px; top: 458px; transform: rotate(330deg);}
+    26% {left: 490px; top: 498px; transform: rotate(360deg);}
+    40% {left: 490px; top: 808px; transform: rotate(360deg);}
+    100%{left: 490px; top: 1040px; transform: rotate(360deg);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
